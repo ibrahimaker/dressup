@@ -9,13 +9,13 @@ const head = `<path fill="#24232d" d="M111 138Q95 53 145 39Q180 24 215 39Q265 53
 <path fill="#fae8df" d="M123 101Q125 63 180 62Q235 63 237 101L234 153Q226 189 180 204Q134 189 126 153Z"/>
 <path fill="#25232d" d="M116 128Q104 67 143 47Q181 26 217 48Q253 70 243 129L227 101Q205 88 192 62Q179 94 132 106L121 132Z"/>
 <path fill="none" stroke="#4d4351" stroke-width="3" d="M130 89Q159 74 173 52M202 54Q219 83 234 91"/>
-<path fill="none" stroke="#5b4545" stroke-width="3" d="M132 124Q150 117 168 124M192 124Q210 117 228 124"/>
-<path fill="#fffdf6" d="M126 136Q149 124 173 142Q151 147 130 141ZM187 142Q211 124 234 136L230 141Q209 147 187 142Z"/>
-<ellipse cx="153" cy="138" rx="5.7" ry="5.9" fill="#594348"/><ellipse cx="207" cy="138" rx="5.7" ry="5.9" fill="#594348"/>
-<ellipse cx="153" cy="139" rx="2.8" ry="4.3" fill="#28232d"/><ellipse cx="207" cy="139" rx="2.8" ry="4.3" fill="#28232d"/>
-<g fill="#fff" stroke="none"><circle cx="151" cy="136" r="1.8"/><circle cx="205" cy="136" r="1.8"/></g>
-<path fill="none" stroke="#40313c" stroke-width="3.5" d="M119 129Q123 134 130 137Q150 124 173 142M187 142Q210 124 230 137Q237 134 241 129"/>
-<path fill="none" stroke="#40313c" stroke-width="1.5" d="M124 133L117 130M128 137L120 136M236 133L243 130M232 137L240 136"/>
+<path fill="none" stroke="#5b4545" stroke-width="2.6" d="M134 124Q151 118 167 124M193 124Q209 118 226 124"/>
+<path fill="#fffdf6" d="M130 137Q150 128 170 141Q151 148 133 143ZM190 141Q210 128 230 137L227 143Q209 148 190 141Z"/>
+<ellipse cx="153" cy="139" rx="5.8" ry="6.6" fill="#665057"/><ellipse cx="207" cy="139" rx="5.8" ry="6.6" fill="#665057"/>
+<ellipse cx="153" cy="140" rx="2.8" ry="4.6" fill="#28232d"/><ellipse cx="207" cy="140" rx="2.8" ry="4.6" fill="#28232d"/>
+<g fill="#fff" stroke="none"><circle cx="151" cy="137" r="1.8"/><circle cx="205" cy="137" r="1.8"/></g>
+<path fill="none" stroke="#40313c" stroke-width="2.8" d="M127 135Q149 126 171 141M189 141Q211 126 233 135"/>
+<path fill="none" stroke="#7d6269" stroke-width="1.15" d="M133 143Q151 148 169 141M191 141Q209 148 227 143"/>
 <path fill="none" stroke="#cd9e95" stroke-width="1.5" d="M178 150L175 164Q180 167 185 164"/>`;
 
 const body = `<path fill="#fae5db" d="M148 221Q135 220 128 237L109 311 102 350Q100 364 110 369Q121 370 122 354L130 317 151 263ZM212 221Q225 220 232 237L251 311 258 350Q260 364 250 369Q239 370 238 354L230 317 209 263Z"/>
