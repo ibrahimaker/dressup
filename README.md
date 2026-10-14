@@ -1,4 +1,14 @@
-# Dress Up
+# Rose · Stil Stüdyosu
+
+17 yaşındaki kurgusal lise öğrencisi Rose için okul, spor ve ev kombinleri oluşturun.
+Animasyonlu açılışta **Oyuna başla**; kıyafet seçiminden sonra **Kombini bitir** düğmesini kullanın.
+Tamamlanan kombini düzenleyebilir veya yeni oyuna başlayabilirsiniz. **Bana ilham ver** rastgele kombin oluşturur; **Geri al** son seçimi geri getirir.
+
+33 özgün, katmanlı vektör seçenek: 9 üst, 7 alt, 6 ayakkabı, 6 aksesuar, 5 makyaj.
+Üç hazır stil arka planı da değiştirir. Her kategorideki parçalar birbiriyle serbestçe eşleştirilebilir.
+Çizimlerin ayrı SVG dosyaları `assets/wardrobe/` içinde; kaynakları `src/wardrobe.ts` dosyasındadır.
+`npm run assets:export` çizimleri doğrular ve ayrı SVG dosyalarını yeniden üretir.
+Azaltılmış hareket tercihi desteklenir. Kombinler bu sürümde oturum belleğinde tutulur; sayfa yenilenince sıfırlanır.
 
 Expo Router, TypeScript ve React Native ile geliştirilen, web/iOS/Android uyumlu bebek giydirme oyunu.
 
