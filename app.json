@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Dress Up",
+    "slug": "dressup",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "dressup",
+    "userInterfaceStyle": "automatic",
+    "web": { "bundler": "metro", "output": "static" },
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true },
+    "extra": { "eas": { "projectId": "5b9cdb83-eab5-4df8-853c-39941d7c46f8" } }
+  }
+}
