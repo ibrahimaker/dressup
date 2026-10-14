@@ -2,21 +2,25 @@ import React from 'react';
 import { SvgXml } from 'react-native-svg';
 import { getItem, Item, Look, Scene } from './wardrobe';
 
-const head = `<path fill="#24232d" d="M111 138Q95 53 145 39Q180 24 215 39Q265 53 249 138L258 284Q231 303 208 273L152 273Q129 303 102 284Z"/>
-<path fill="#33303e" stroke="none" d="M124 102Q106 205 116 271L128 257Q116 186 139 99ZM227 102Q254 186 235 273L223 257Q242 184 219 101Z"/>
-<path fill="#f8e4dc" d="M162 186H198V225Q180 241 162 225Z"/><path fill="#e9c4bc" stroke="none" d="M162 190Q180 207 198 190V207Q181 221 162 207Z"/>
-<ellipse cx="122" cy="145" rx="9" ry="14" fill="#f2d5cc"/><ellipse cx="238" cy="145" rx="9" ry="14" fill="#f2d5cc"/>
-<path fill="#fae8df" d="M123 101Q125 63 180 62Q235 63 237 101L234 153Q226 189 180 204Q134 189 126 153Z"/>
-<path fill="#25232d" d="M116 128Q104 67 143 47Q181 26 217 48Q253 70 243 129L227 101Q205 88 192 62Q179 94 132 106L121 132Z"/>
-<path fill="none" stroke="#4d4351" stroke-width="3" d="M130 89Q159 74 173 52M202 54Q219 83 234 91"/>
-<path fill="none" stroke="#5b4545" stroke-width="2.6" d="M134 124Q151 118 167 124M193 124Q209 118 226 124"/>
-<path fill="#fffdf6" d="M130 137Q150 128 170 141Q151 148 133 143ZM190 141Q210 128 230 137L227 143Q209 148 190 141Z"/>
-<ellipse cx="153" cy="139" rx="5.8" ry="6.6" fill="#665057"/><ellipse cx="207" cy="139" rx="5.8" ry="6.6" fill="#665057"/>
-<ellipse cx="153" cy="140" rx="2.8" ry="4.6" fill="#28232d"/><ellipse cx="207" cy="140" rx="2.8" ry="4.6" fill="#28232d"/>
-<g fill="#fff" stroke="none"><circle cx="151" cy="137" r="1.8"/><circle cx="205" cy="137" r="1.8"/></g>
-<path fill="none" stroke="#40313c" stroke-width="2.8" d="M127 135Q149 126 171 141M189 141Q211 126 233 135"/>
-<path fill="none" stroke="#7d6269" stroke-width="1.15" d="M133 143Q151 148 169 141M191 141Q209 148 227 143"/>
-<path fill="none" stroke="#cd9e95" stroke-width="1.5" d="M178 150L175 164Q180 167 185 164"/>`;
+const head = `<path fill="#211f29" d="M106 142Q92 58 143 35Q180 20 217 37Q268 60 253 143L263 292Q233 310 207 277H153Q127 310 97 292Z"/>
+<path fill="#302d39" stroke="none" d="M122 99Q101 198 112 279L128 260Q114 184 139 96ZM229 99Q258 184 239 281L222 260Q246 180 217 96Z"/>
+<path fill="#f8e4dc" d="M161 190H199V227Q180 244 161 227Z"/><path fill="#e9c4bc" stroke="none" d="M161 193Q180 211 199 193V210Q181 225 161 210Z"/>
+<ellipse cx="121" cy="146" rx="9" ry="15" fill="#f2d5cc"/><ellipse cx="239" cy="146" rx="9" ry="15" fill="#f2d5cc"/>
+<path fill="none" stroke="#a75d74" stroke-width="2.2" d="M115 157Q120 151 125 157Q124 164 120 167Q116 164 115 157ZM235 157Q240 151 245 157Q244 164 240 167Q236 164 235 157"/>
+<path fill="#fae8df" d="M123 98Q126 57 180 57Q234 57 237 98L233 151Q224 190 180 209Q136 190 127 151Z"/>
+<path fill="#25232d" d="M113 132Q103 67 143 43Q166 29 180 42Q165 77 128 108L120 135ZM180 42Q198 28 220 47Q258 73 246 135L231 107Q202 94 180 42Z"/>
+<path fill="#302d39" d="M132 83Q107 111 123 148Q110 174 130 204L139 194Q125 168 138 142Q124 112 144 90ZM228 83Q253 111 237 148Q250 174 230 204L221 194Q235 168 222 142Q236 112 216 90Z"/>
+<path fill="none" stroke="#4d4351" stroke-width="3" d="M132 83Q158 65 176 44M184 44Q203 67 230 86"/>
+<path fill="none" stroke="#59434a" stroke-width="3.4" d="M132 123Q150 113 169 122M191 122Q210 113 228 123"/>
+<path fill="#fffdf6" d="M128 140Q149 126 172 140Q151 153 130 146ZM188 140Q211 126 232 140L230 146Q209 153 188 140Z"/>
+<ellipse cx="153" cy="140" rx="7.2" ry="8.2" fill="#514047"/><ellipse cx="207" cy="140" rx="7.2" ry="8.2" fill="#514047"/>
+<ellipse cx="153" cy="141" rx="3.8" ry="5.8" fill="#24212a"/><ellipse cx="207" cy="141" rx="3.8" ry="5.8" fill="#24212a"/>
+<g fill="#fff" stroke="none"><circle cx="150.5" cy="137" r="2.3"/><circle cx="204.5" cy="137" r="2.3"/></g>
+<path fill="none" stroke="#352a33" stroke-width="3.2" d="M124 136Q149 124 172 140M188 140Q211 124 236 136"/>
+<path fill="none" stroke="#735b63" stroke-width="1.15" d="M130 146Q151 153 171 140M189 140Q209 153 230 146"/>
+<path fill="none" stroke="#352a33" stroke-width="1.4" d="M129 134L123 130M133 132L128 127M231 134L237 130M227 132L232 127"/>
+<path fill="none" stroke="#cd9e95" stroke-width="1.5" d="M178 149Q175 160 175 166Q180 170 186 165M176 170Q180 172 184 169"/>
+<path fill="#b67a83" stroke="none" d="M165 181Q173 175 180 179Q187 175 195 181Q188 193 180 194Q172 193 165 181Z"/><path fill="none" stroke="#8e5f6b" stroke-width="1.2" d="M166 182Q180 186 194 182"/>`;
 
 const body = `<path fill="#fae5db" d="M148 221Q135 220 128 237L109 311 102 350Q100 364 110 369Q121 370 122 354L130 317 151 263ZM212 221Q225 220 232 237L251 311 258 350Q260 364 250 369Q239 370 238 354L230 317 209 263Z"/>
 <path fill="#f7e0d6" d="M148 330H212L210 444 205 573H189L180 420 171 573H155L150 444Z"/>
